@@ -20,6 +20,7 @@
         
         SimpleDateFormat dateFormatUS = new SimpleDateFormat("MM/dd/yyyy");
         String MMddyyyyToday = dateFormatUS.format(today);
+        
     %>
     <body>
         
