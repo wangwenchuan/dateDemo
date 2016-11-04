@@ -15,7 +15,7 @@
     <%
     
         Date today = new Date();
-        SimpleDateFormat  dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
         String ddMMyyyyToday = dateFormat.format(today);
         
         SimpleDateFormat dateFormatUS = new SimpleDateFormat("MM/dd/yyyy");
